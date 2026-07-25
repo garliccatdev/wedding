@@ -620,53 +620,22 @@
 <section class="rsvp-section" id="rsvp">
   <div class="rsvp-bg"></div>
   <div class="rsvp-pattern"></div>
-  <div class="section-inner" style="position:relative;z-index:2;">
-    <span class="section-eyebrow">Kindly Reply By July 1, 2026</span>
+  <div class="section-inner" style="position:relative; z-index:2;">
+    <span class="section-eyebrow">RSVPs Are Now Closed</span>
     <h2 class="section-title">RSVP</h2>
     <div class="divider-line"><div class="diamond"></div></div>
-    <div class="rsvp-envelope reveal">
+    
+    <div class="rsvp-envelope reveal" style="text-align: center; padding: 4rem 2rem; color: #ffffff; max-width: 600px; margin: 0 auto;">
       <div class="fc-tr"></div>
       <div class="fc-bl"></div>
-      <form id="rsvp-form" action="https://api.staticforms.dev/submit" method="POST">
-        <input type="hidden" name="apiKey" value="sf_a43c6d6ad3eb194d27163828" />
-        <input type="hidden" name="_subject" value="Wedding RSVP — Sean &amp; Jo-Ellie">
-        <div class="form-group">
-          <label for="name">Full Name</label>
-          <input type="text" id="name" name="name" placeholder="Your full name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" placeholder="your@email.com" required>
-        </div>
-        <div>
-          <span class="attend-label">Will you be joining us?</span>
-          <div class="attend-row">
-            <button type="button" class="attend-opt sel" id="btn-yes" onclick="setAttending('yes')">Joyfully Accepts</button>
-            <button type="button" class="attend-opt" id="btn-no" onclick="setAttending('no')">Regretfully Declines</button>
-          </div>
-          <input type="hidden" name="attending" id="attending-val" value="yes">
-        </div>
-        <div class="form-group">
-          <label for="diet">Dining Preference</label>
-          <select id="diet" name="dietary" required>
-            <option value="" disabled selected>Select one…</option>
-            <option value="omnivore">Omnivore</option>
-            <option value="vegan">Vegan</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="notes">Notes or Special Requests</label>
-          <input type="text" id="notes" name="notes" placeholder="Allergies, accessibility needs, &amp;c.">
-        </div>
-        <button type="submit" class="rsvp-submit">Send My RSVP</button>
-      </form>
+      
+      <div class="orn" style="font-size: 1.5rem; opacity: 0.8; margin-bottom: 1.5rem; color: #d4af37;"></div>
+      <h3 style="margin-bottom: 1rem; font-weight: normal; letter-spacing: 1px;">Thank you for your interest</h3>
+      <p style="line-height: 1.6; opacity: 0.9;">
+        The deadline to reply was July 24, 2026, and RSVPs are now closed.<br>
+        We look forward to celebrating with those who have confirmed.
+      </p>
     </div>
-    <div class="form-success" id="rsvp-success">
-      <div class="orn" style="font-size:1.5rem;opacity:0.5;">✿ ✦ ✿</div>
-      <h3>We'll see you there!</h3>
-      <p>Thank you for your reply. We cannot wait to celebrate with you.</p>
-    </div>
-    <p class="rsvp-deadline">Kindly reply by the first of July, 2026</p>
   </div>
 </section>
 
